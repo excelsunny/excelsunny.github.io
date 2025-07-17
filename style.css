@@ -317,111 +317,57 @@ transition: 0.3s ease-in-out;
 }
 
 @media(max-width:720px){
-    body{
-        /* padding: rem; */
-        width: 100vw;
-    height: 100vh;
-    padding: 0 0;
-    }
     #menu-icon{
         display: block;
     }
-    .header{
-        width: 100vw;
-    }
-   .logo{
-font-size: 2rem;
-   }
-    .navbar{
+.navbar{
     position: absolute;
     top: 100%;
     right: 0;
-    width: 50vw;
-    height: 100vh;
-    padding: 0.5rem 1rem;
+    width: 50%;
+    padding: 1rem 3rem;
     background-color: rgba(0, 0, 0, 0.8);
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
     border-bottom-left-radius: 2rem;
     display: none;
-    }
+}
 .navbar a{
     display: block;
-    font-size: 2rem;  
+    font-size: 2rem;
     margin: 3rem 0;
     color: var(--text-color);
 }
 .navbar.active{
     display: block;
 }
-
 .home{
     flex-direction: column-reverse;
-    margin-top: 15rem;
+    margin: 5rem 0;
     gap: 5rem;
-    justify-content: center;
-    align-items:center;
-    width: 100vw;
-    height: 100vh;
-
 }
-
 .home-content{
-    align-items: left;
-    text-align: left;
-    width: 50vw;
-    height: 50vh;
+    align-items: center;
+    text-align: center;
 }
-
-.home-content h1{
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1;
-    justify-content: center;
-}
-.home-content h3{
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1;
-    justify-content: center;
-}
-/*
-.home-img img{
+.home-img{
     width: 52vw;
 }
 .about{
     flex-direction: column-reverse;
-    text-align: left;
-    justify-self: center;
-    justify-content: center;
-    padding: 0 2rem;
-    margin: 0 2rem;
-}
-.about-content{
-    padding: 0 5rem ;
-    margin: 0 5rem;
+    text-align: center;
 }
 .about h2{
     text-align: center;
-    font-size: 4rem;
-    margin: 3rem 0;
-
+    margin: 2rem 0;
 }
-.about p{
-    font-size: 1.5rem;
-}
-.about img{
+.about-img{
     display: none;
 }
-.services-container{
-    justify-self: center;
-    justify-content: center;
-    padding-top: 0;
-    margin-top: 0;
-}
-
 .contact form{
     flex-direction: column;
-}*/
-
+}
+.section{
+    align-items: center;
+}
 }
